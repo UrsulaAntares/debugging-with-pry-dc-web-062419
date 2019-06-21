@@ -7,6 +7,11 @@ def prying_into_the_method
 	binding.pry
 	this_variable_hasnt_been_interpreted_yet = "The program froze before it could read me!" 
 	puts this_variable_hasnt_been_interpreted_yet
+	france = "Where we come from"
+	binding.pry
+	we_are = "Coneheads"
+	binding.pry
+	puts "ok we are done and all"
 end
 
 prying_into_the_method
